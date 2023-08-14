@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(213, 219, 219) ;
+   /* background-image: url("Imagenes/FotoYared.png"); */
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+h1, .intro { /*arreglar mañana xD */
+    background-color: rgb(86, 101, 115);
+    color: rgb(213, 219, 219);
+    text-align: center;
+    border-top: 100px;
+}
+.descricion {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#fotoperfil {
+    float: right; /* esta propiedad me permite mover la imagen a izquierda sin alterar el texto*/
+    width: 35%; /* agranda la imagen*/
+    border-radius: 300px; /* Crea un margen al rededor de la imagen*/
+    background-color: rgb(128, 139, 150);
+}
+ /* a base de un tutorial para crear menu titulos*/
+.menu {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(174, 182, 191);
+    width: 80%;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menu li a:hover {
+    background-color: blue;
+}
